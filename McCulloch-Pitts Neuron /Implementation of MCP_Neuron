@@ -1,1 +1,6 @@
+A manual implementation of MCP neuron is a way of simulating the behavior of a simple artificial neural unit using mathematical operations. The MCP neuron, also known as the McCulloch-Pitts neuron, was proposed by Warren McCulloch and Walter Pitts in 1943 as a model of biological neurons. The MCP neuron has a set of binary inputs, each with a corresponding weight, and a single binary output that depends on the weighted sum of the inputs and a threshold value. The output is 1 if the weighted sum is greater than or equal to the threshold, and 0 otherwise. To implement the MCP neuron manually, one needs to perform the following steps:
 
+- Assign values to the inputs, weights, and threshold. For example, let the inputs be x1 = 0, x2 = 1, x3 = 1, the weights be w1 = -1, w2 = 2, w3 = 1, and the threshold be t = 1.
+- Calculate the weighted sum of the inputs by multiplying each input by its weight and adding them together. For example, s = x1 * w1 + x2 * w2 + x3 * w3 = 0 * (-1) + 1 * 2 + 1 * 1 = 3.
+- Compare the weighted sum with the threshold and determine the output. For example, since s >= t, the output is y = 1.
+- Repeat the steps for different values of inputs, weights, and threshold to observe how the MCP neuron responds to different stimuli.
